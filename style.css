@@ -1,0 +1,235 @@
+/* styles.css */
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(203, 243, 216);
+}
+
+table {
+    width: 20%;
+    border-collapse: collapse;
+    border:1px solid black;
+  }
+
+
+tr {
+    background-color: rgba(130, 250, 130, 0);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(41, 80, 41, 0.61);
+  }
+
+tr:hover{
+    background-color: rgba(0, 0, 0, 0.938);
+    color: bisque;
+}
+
+.pl-icon {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 110px;
+    width: auto;
+    background-color: transparent;
+}
+
+th {
+    height: 30px;
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    height: 30px;
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+div.sticky {
+    position: sticky;
+    height: 130px;
+    width: 101%;
+    top: 0%;
+    left: 0%;
+    font-size: 23px;
+    background-color: rgb(143, 226, 171);
+  }
+
+.page-head {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 61px;
+}
+
+.prev-gw {
+    position: absolute;
+    margin-left: 32%;
+    margin-top: 15px;
+}
+
+.homepage {
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 15px;
+}
+
+.next-gw {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 15px;
+}
+
+.fixture-list {
+    margin-left: 820px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.table-head {
+    font-size: x-large; 
+    text-decoration: underline; 
+    text-align: center;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+}
+.f-l-entry {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-score {
+    margin-left: 51%; 
+    margin-top: -84px;
+    text-align: center;
+    width: 9.5%;
+    height: 50px;
+    border-radius: 7px;
+    border-color: black;
+    border-style: ridge;
+    background-color: rgb(42, 170, 255);
+}
+
+.avg-score {
+    margin-left: 40%;
+    text-align: center;
+    width: 9.5%;
+    height: 50px;
+    border-radius: 7px;
+    border-color: black;
+    border-style: ridge;
+    background-color: rgb(42, 170, 255);
+}
+
+.gk-start{
+    margin-left: 40%;
+}
+
+.def-s13 {
+    margin-left: 20%;
+} 
+
+.def-s23{
+    margin-left: 40%; 
+    margin-top: -100px;
+}
+ 
+.def-s33{
+    margin-left: 60%; 
+    margin-top: -100px;
+}
+
+.mid-s15{
+    margin-left: 0%; 
+}
+
+.mid-s25{
+    margin-left: 20%; 
+    margin-top: -100px;
+}
+
+.mid-s35{
+    margin-left: 40%; 
+    margin-top: -100px;
+}
+
+.mid-s45{
+    margin-left: 60%; 
+    margin-top: -100px;
+}
+
+.mid-s55{
+    margin-left: 80%; 
+    margin-top: -100px;
+}
+
+.att-s12 {
+    margin-left: 30.1%;
+}
+
+.att-s22 {
+    margin-left: 50%;
+    margin-top: -100px;
+}
+
+.bench-1 {
+    margin-left: 10.1%;
+}
+
+.bench-2 {
+    margin-left: 30.1%; 
+    margin-top: -100px;
+}
+
+.bench-3 {
+    margin-left: 50%; 
+    margin-top: -100px;
+}
+
+.bench-4 {
+    margin-left: 70%; 
+    margin-top: -100px;
+}
+
+.best-players {
+    width: 40%; 
+    margin-left: 30%;
+}
+
+.best-performers {
+    width: 50%; 
+    margin-left: 25%;
+}
+
+.own-stats {
+    width: 50%; 
+    margin-left: 25%;
+}
+
+/* .b-p-col {
+    width: 10%;
+} 
+
+.own-col {
+    width: 5%;
+} */
+
+pre {
+    padding-top: 10px;
+    font-size: large;
+}
+
+
