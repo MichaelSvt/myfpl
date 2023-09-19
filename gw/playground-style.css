@@ -1,0 +1,152 @@
+/* styles.css */
+/* Visually same as gw2 but implemented using flex box*/
+* {
+    /* position: static; */
+    /* border: 2px solid red; */
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(203, 243, 216);
+}
+
+
+.weekly-scores-flex {
+    position: relative;
+    display: flex;
+    top: 140px;
+    left: 30%;
+    width: 40%;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.weekly-score-box{
+    position: relative;
+    text-align: center;
+    font-size:larger;
+    font-weight: bold;
+    width: 40%;
+    border-radius: 7px;
+    border-color: black;
+    border-style: ridge;
+    background-color: rgb(49, 203, 214);
+}
+
+
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+.pl-icon {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 110px;
+    width: auto;
+    background-color: transparent;
+}
+
+.fixed-header {
+    position: fixed;
+    z-index: 100;
+    height: 130px;
+    width: 101%;
+    border-bottom-style: ridge ;
+    border-bottom-color: black;
+    top: 0;
+    left: 0;
+    font-size: 23px;
+    background-color: rgb(143, 226, 171);
+}
+
+.sticky-flex {
+    position: relative;
+    display: flex;
+    top: 10px;
+    left: 24%;
+    width: 52%;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page-head {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.my-team {
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+#gk-start{
+    margin-left: 40%;
+    height: 100px;
+}
+
+
+table {
+    border-collapse: collapse;
+    border:1px solid black;
+}
+th, td {
+    height: 30px;
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr {
+    background-color: rgba(88, 204, 88, 0.336);
+}
+tr:nth-child(even) {
+    background-color: rgba(41, 80, 41, 0.479);
+  }
+
+
+.field-position {
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: stretch;
+}
+.player-table {
+    height: 100px;
+    width: 20%;
+}
+.player-table:hover{
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+}
+
+.week-best-players {
+    position: relative;
+    margin: 10px;
+    display: flex;
+    align-content:center;
+    justify-content:center;
+    align-items: stretch;
+}
+.best-players-table {
+    width: 40%; 
+    padding-bottom: 150px;
+}
+
+.best-players-header-row{
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+}
+.best-players-row:hover{
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+}
