@@ -25,29 +25,33 @@
         <div class="weekly-score-box">My Score for<br>week 1: 68</div>
     </div>
 
-    <div class="my-team">
+    <div class="my-team"> 
         <h1>My Team</h1>
-        <h2>Starters</h2>
+        <h2 style="margin: 0px;">Starters</h2>
         <div class="starting-team">
             <h3>Goalkeeper</h3>
 
-            <table class="player-table" id="gk-start">
-                <tr>
-                  <th colspan="4">Ramsdale</th>
-                </tr>
-                <tr>
-                  <th>Price</th>
-                  <th>Team</th>
-                  <th>Points</th>
-                  <th>vs.</th>
-                </tr>
-                <tr>
-                  <td>5.0</td>
-                  <td>ARS</td>
-                  <td>6</td>
-                  <td>CRY (A)</td>
-                </tr>
-            </table>
+            <div class="field-position">
+                <table class="player-table" id="gk-start">
+                  <tr>
+                    <th colspan="4">Ramsdale</th>
+                  </tr>
+                  <tr>
+                    <th>Price</th>
+                    <th>Team</th>
+                    <th>Points</th>
+                    <th>vs.</th>
+                  </tr>
+                  <tr>
+                    <td>5.0</td>
+                    <td>ARS</td>
+                    <td>6</td>
+                    <td>CRY (A)</td>
+                  </tr>
+                </table>
+
+            </div>
+            
             
             <h3>Defenders</h3>
 
@@ -70,7 +74,6 @@
                       <td>MCI (A)</td>
                     </tr>
                   </table>
-                  
                   <table  class="player-table" id="def-s23">
                     <tr>
                       <th colspan="4">Estupinan</th>
@@ -88,7 +91,6 @@
                       <td>WOL (A)</td>
                     </tr>
                   </table>
-                  
                   <table  class="player-table" id="def-s33">
                     <tr>
                       <th colspan="4">Trent Alexander-Arnold</th>
@@ -107,7 +109,7 @@
                     </tr>
                   </table>
 
-            </div>
+            </div>    <!-- end for defence -->
 
             <h3>Midfielders</h3>
 
@@ -201,7 +203,7 @@
                       <td>TOT (A)</td>
                     </tr>
                   </table>
-            </div>
+            </div>    <!-- end for midfield -->
 
             <h3>Forwards</h3>
 
@@ -243,9 +245,9 @@
                     </tr>
                   </table>
 
-            </div>
+            </div>    <!-- end for forwards -->
 
-        </div>
+        </div>        <!-- end for starting team -->
 
         <h2>Bench</h2>
 
@@ -323,8 +325,8 @@
                 </tr>
               </table>
         
-        </div>
-    </div>
+        </div>    <!-- end for bench -->
+    </div>        <!-- end for class="my-team" -->
 
     <h1>Best Players for week 2</h1>
 
@@ -421,6 +423,8 @@
         
             </table>
     </div>
+
+    <a class="back-to-top" href="playground.html">Back to top</a>
     
 </body>
 </html>

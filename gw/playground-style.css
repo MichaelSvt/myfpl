@@ -9,38 +9,13 @@ body{
     background-color: rgb(203, 243, 216);
 }
 
-
-.weekly-scores-flex {
-    position: relative;
-    display: flex;
-    top: 140px;
-    left: 30%;
-    width: 40%;
-    align-content: space-between;
-    justify-content: space-around;
-    align-items: stretch;
-}
-
-.weekly-score-box{
-    position: relative;
-    text-align: center;
-    font-size:larger;
-    font-weight: bold;
-    width: 40%;
-    border-radius: 7px;
-    border-color: black;
-    border-style: ridge;
-    background-color: rgb(49, 203, 214);
-}
-
-
-
 h1 {
     margin-top: 20px;
     text-align: center;
 }
 h2 {
     text-align: center;
+    padding: 0px;
 }
 h3 {
     text-align: center;
@@ -58,12 +33,12 @@ h3 {
 .fixed-header {
     position: fixed;
     z-index: 100;
-    height: 130px;
-    width: 101%;
+    height: auto;
     border-bottom-style: ridge ;
     border-bottom-color: black;
     top: 0;
     left: 0;
+    right: 0;
     font-size: 23px;
     background-color: rgb(143, 226, 171);
 }
@@ -72,27 +47,53 @@ h3 {
     position: relative;
     display: flex;
     top: 10px;
-    left: 24%;
-    width: 52%;
-    align-content: space-between;
-    justify-content: space-around;
+    gap: 45px;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .page-head {
+    position: relative;
+    bottom: 10px;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
 }
-.my-team {
-    margin-top: 160px;
-    margin-bottom: 50px;
-}
-#gk-start{
-    margin-left: 40%;
-    height: 100px;
+
+.weekly-scores-flex {
+    position: relative;
+    display: flex;
+    margin-top: 180px;
+    left: 30%;
+    width: 40%;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 
+.weekly-score-box{
+    position: relative;
+    text-align: center;
+    font-size:larger;
+    font-weight: bold;
+    width: 40%;
+    border-radius: 7px;
+    border-color: black;
+    border-style: ridge;
+    background-color: rgb(49, 203, 214);
+}
+
+.my-team {
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+    align-items:stretch;
+}
 
 table {
     border-collapse: collapse;
@@ -112,6 +113,15 @@ tr:nth-child(even) {
     background-color: rgba(41, 80, 41, 0.479);
   }
 
+/* .starting-team {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: stretch;
+} */
+
 
 .field-position {
     position: relative;
@@ -119,10 +129,12 @@ tr:nth-child(even) {
     align-content: space-between;
     justify-content: center;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 .player-table {
     height: 100px;
     width: 20%;
+    font-size: larger;
 }
 .player-table:hover{
     background-color: rgb(0, 0, 0);
@@ -140,6 +152,7 @@ tr:nth-child(even) {
 .best-players-table {
     width: 40%; 
     padding-bottom: 150px;
+    font-size: larger;
 }
 
 .best-players-header-row{
@@ -149,4 +162,9 @@ tr:nth-child(even) {
 .best-players-row:hover{
     background-color: rgb(0, 0, 0);
     color: bisque;
+}
+
+.back-to-top {
+    padding: 20px;
+    font-size: large;
 }
